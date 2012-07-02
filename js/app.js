@@ -11,6 +11,6 @@ window.onload = function(){
     var App = new _app();
     App.init('container', 800, 600);
 
-    setInterval(function(){App.procces()},200);
+    setInterval(function(){App.procces()},100);
 };
 

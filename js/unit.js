@@ -14,7 +14,7 @@ function _app(){
     var frag = {}, radius = 14, movInc = radius, fill = "#0a0", stroke = "#f00";
     var x=0,y=0;
     var spX = radius * 0.7, spY = radius * 0.7;
-    var angel = 45, angInc = 30;
+    var angel = 1, angInc = 10;
 
     this.init = function(cont, wid, hei){
         stage = new Kinetic.Stage({
@@ -33,7 +33,7 @@ function _app(){
             strokeWidth: 1
         });
 
-        for(var i=1; i<=10; i++){
+        for(var i=1; i<=50; i++){
             var _frag = clone( frag )
             x+=spX;
             y+=spY;
